@@ -56,7 +56,7 @@ const Register = () => {
 
                 <input
 
-                    className='w-50 mx-auto btn btn-dark fw-bold mt-2'
+                    className='w-50 mx-auto btn btn-dark mt-2'
                     type="submit"
                     value="Register" />
             </form>
