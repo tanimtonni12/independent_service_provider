@@ -21,8 +21,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Wedding Art Photography</h3>
+                    <p className='text-center'>Create your sweet memories with weeding art. </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Wedding Art Photography</h3>
+                    <p className='text-center'>Always be there with you to fullfil your desire dreams.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,9 +45,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    <h3>Wedding Art Photography</h3>
+                    <p className='text-center'>
+                        Your happiness is more important which give more inspiration to capture your moments.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
