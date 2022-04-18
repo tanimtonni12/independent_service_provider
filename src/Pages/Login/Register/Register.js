@@ -31,8 +31,6 @@ const Register = () => {
         console.log(user);
     }
 
-
-
     const handleRegister = (event) => {
         event.preventDefault();
         const name = event.target.name.value;
