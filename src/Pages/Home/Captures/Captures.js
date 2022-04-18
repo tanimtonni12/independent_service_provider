@@ -10,7 +10,7 @@ import cap6 from '../../../Images/captures/cap6.png'
 const Captures = () => {
     return (
 
-        <div className='container'>
+        <div id='captures' className='container'>
 
             <div className='w-75 my-5 mx-auto  '>
                 <h2 className='text-danger text-center fs-2 fw-bold  mt-5 shadow p-2  bg-dark rounded'>Captures</h2>
