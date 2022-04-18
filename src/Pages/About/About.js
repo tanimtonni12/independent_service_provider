@@ -10,7 +10,7 @@ const About = () => {
                 <h2 className='text-danger text-center fw-bold shadow p-3 mb-5 bg-dark rounded'>About Me</h2>
             </div>
             <div className='text-center'>
-                <img src={img} alt="..." />
+                <img id='image' src={img} alt="..." />
             </div>
 
             <div className='text-center'>

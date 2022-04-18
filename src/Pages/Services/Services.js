@@ -13,7 +13,7 @@ const Services = () => {
         <div id="services" className='container'>
             <div className="row">
                 <div className='mb-5 w-75 mx-auto'>
-                    <h1 className='text-danger text-center  mt-5 shadow p-3  bg-dark rounded'> Available Services</h1>
+                    <h1 className='text-danger text-center fs-2 fw-bold  mt-5 shadow p-2  bg-dark rounded'> Available Services</h1>
                 </div>
                 <div className="services-container">
                     {
