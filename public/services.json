@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Single Package",
+        "price": "150",
+        "description": "You can book any single package. Engagement photo shoot,haldi night photo shoot, wedding photo shoot, or reception photo shoot among them any one you can book within a very reasonable price. ",
+        "img": "https://www.brides.com/thmb/k3Xz1YvNrqMBLwz-luwCJ8-Qiwc=/300x300/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__11__10__5824d1d9e86107243de85e95_23-Winter-Two-Part-Dallas-Wedding-New-Years-Eve-Shaun-Menary-Photography-f91829af30c94919b0457c22ea085a4d.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Premium Package",
+        "price": "250",
+        "description": "You can book this service without any hesitation.Here you can get the opportunity to cover all the program's photography of wedding within an affordable price.",
+        "img": "https://www.brides.com/thmb/SQbHXaP-lpT4xeAkefxBQIG9ODg=/300x300/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AModernIndianWeddinginSantaBarbara-7ce403c1fdfb4d9793c468a7cfac4432.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Exclusive Package",
+        "price": "300",
+        "description": "In this exclusive package you will get the opportunity to cover all the wedding program's picture and also make wedding videos.Also offer a special photography session with your beloved one after program.",
+        "img": "https://www.brides.com/thmb/5S2NI78jEHKYRqGSf1SeiM0RKI8=/300x300/filters:max_bytes(150000):strip_icc():format(webp)/Websites-To-Design-Your-Wedding-Invitations-68542ab259dc44a58d1e43fab60a5155.png"
+    }
+]

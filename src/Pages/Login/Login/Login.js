@@ -12,9 +12,9 @@ const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
-    // const location = useLocation();
+    const location = useLocation();
 
-    // let from = location.state?.from?.pathname || "/";
+    let from = location.state?.from?.pathname || "/";
     let errorElement;
     const [
         signInWithEmailAndPassword,
@@ -22,16 +22,15 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
-
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     if (loading || sending) {
         return <Loading></Loading>
     }
 
-    // if (user) {
-    //     navigate('/home');
-    // }
+    if (user) {
+        navigate(from, { replace: true });
+    }
 
     if (error) {
         errorElement = <p className='text-danger'>Error: {error?.message}</p>
@@ -62,7 +61,7 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-danger text-center my-3'>Please Login</h2>
+            <h2 className='text-primary text-center mt-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
@@ -70,13 +69,13 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Button variant="dark w-50 mx-auto d-block mb-5" size="lg" type="submit">
+                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>
             </Form>
             {errorElement}
-            <p>New to wedding Art? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
-            <p>Forget Password? <button className='btn btn-link text-danger pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+            <p>New to Wedding Art? <Link to="/register" className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
+            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>

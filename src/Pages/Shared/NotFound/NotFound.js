@@ -1,9 +1,10 @@
 import React from 'react';
+import notfound from '../../../Images/notfound/notfound.gif'
 
 const NotFound = () => {
     return (
-        <div>
-            <h4>404!!</h4>
+        <div className='text-center'>
+            <img src={notfound} alt="" />
         </div>
     );
 };
