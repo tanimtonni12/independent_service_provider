@@ -6,7 +6,7 @@ This project is about wedding photography
 
 ## About this Project
 
-* In this project in home page there are header, banners, services, demo captures and footer .
+* In this project in home page there are header, banner, services, demo captures and footer .
 * In this home page user are able to know about services and demo captures.
 * In header there are login and sign out options also.
 * If user are registered then user can login to the system.
